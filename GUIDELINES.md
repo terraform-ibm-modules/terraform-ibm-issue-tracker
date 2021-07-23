@@ -1,4 +1,4 @@
-# Guidelines to Ccontribute to IBM Cloud modules
+# Guidelines to Contribute to IBM Cloud modules
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
