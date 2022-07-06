@@ -1,26 +1,20 @@
 ---
-name: Feature request
+name: 🚀 Feature request
 about: Suggest an idea for this project
-title: "[FEATURE]"
-labels: ''
-assignees: hkantare, umarali-nagoor
+labels: enhancement
+---
+
+### Description
+
+<!--- Include a clear and concise description of your feature request --->
+
+### New or affected modules
+
+<!--
+Include the name of the module or repo that would be affected.
+Or indicate that you think this would be a new module.
+-->
 
 ---
 
-**Module or Repo Name**
-Mention the name of the module or repo in which you would like to have a new feature.
-
-**Describe the functionality support you are looking for**
-A clear and concise description of what you are looking for.
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/terraform-ibm-modules/documentation/blob/main/CODE_OF_CONDUCT.md)
