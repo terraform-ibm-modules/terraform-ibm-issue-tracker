@@ -5,14 +5,16 @@
 Use this issue tracker repo to report an issue and request a new module or feature. Select an [issue template](https://github.com/terraform-ibm-modules/terraform-ibm-issue-tracker/issues/new/choose) to create the item. The information that's requested in the templates helps us resolve issues faster.
 For more information about the project, see the [documentation](https://terraform-ibm-modules.github.io/documentation/).
 
-Read our [Code of Conduct](CODE_OF_CONDUCT.md) to keep our community approachable and respectable. Also, see the [Contributing guide](https://github.com/terraform-ibm-modules/.github/blob/main/.github/CONTRIBUTING.md).
+Read our [Code of Conduct](https://github.com/terraform-ibm-modules/.github/blob/main/.github/CODE_OF_CONDUCT.md) to keep our community approachable and respectable. Also, see the [Contributing guide](https://github.com/terraform-ibm-modules/.github/blob/main/.github/CONTRIBUTING.md).
 
 ## Report an issue
 
 Your participation in identifying and fixing issues help us to improve the modules. Follow these steps to report an issue.
 
-1.  Try your issue against the most recent code in the `main` branch in the repository.
-1.  [Check](/issues) for similar issues.
+1.  Use this issue tracker repository for issues that span modules. You can report issues for a single module from the GitHub issues page of that repository.
+1.  Try your issue against the code in the most recent release in the repository.
+1.  [Check](https://github.com/terraform-ibm-modules/terraform-ibm-issue-tracker/issues) for similar issues.
+
     If you can reproduce the issue and find a closed issue that seems similar to what you're experiencing, link to the closed issue in the body of your issue.
 1.  Use the [bug report](https://github.com/terraform-ibm-modules/terraform-ibm-issue-tracker/issues/new?assignees=&labels=bug+%F0%9F%90%9E&template=bug_report.md) template to report an issue.
 
