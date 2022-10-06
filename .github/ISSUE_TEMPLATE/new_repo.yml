@@ -1,0 +1,47 @@
+name: 🆕 New repo
+description: Request a repo
+title: "[New repo]: New Terraform module repo"
+labels: [repo-request 🆕, module-onboarding]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for requesting up a new public repo in the terraform-ibm-modules organization.
+  - type: dropdown
+    attributes:
+      label: "New or existing repo?"
+      description: Select whether you are migrating code from another repo or creating something new.
+      options:
+        - Migrating existing repo
+        - Contributing new repo
+    validations:
+      required: true
+  - type: input
+    id: new-repo
+    attributes:
+      label: Suggested repo name
+      description: What name would you like for the new repo?
+      placeholder: "example: terraform-ibm-activity-tracker"
+      value: terraform-ibm-<NAME>
+    validations:
+      required: true
+  - type: textarea
+    id: repo-description
+    attributes:
+      label: Short description of the module
+      description: The description help users understand what your module does.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: More information
+      description: Include other information that provides context for this request.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this request, you agree to follow our [Code of Conduct](https://github.com/terraform-ibm-modules/.github/blob/main/.github/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
