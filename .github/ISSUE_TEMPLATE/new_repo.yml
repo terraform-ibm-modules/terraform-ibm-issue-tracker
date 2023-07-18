@@ -32,6 +32,29 @@ body:
       description: The description help users understand what your module does.
     validations:
       required: true
+  - type: dropdown
+    id: repo-owner
+    attributes:
+      label: GitHub team that will manage and maintain the repo
+      description: Select whether you have a team in this organization or need one.
+      options:
+        - I have an existing team
+        - I need a new team
+    validations:
+      required: true
+  - type: textarea
+    id: team-info
+    attributes:
+      label: Team details
+      description: Add a link to the team that will administer the repo. If you need a team, specify the GH IDs of the admins and team members.
+      value: |
+        Existing team url: https://github.com/orgs/terraform-ibm-modules/teams/<TEAM-NAME>
+        OR
+        New team name
+        - Admin profile ID: https://github.com/<ADMIN_ID>
+        - Member profile IDs: https://github.com/<MEMBER_ID_1>, https://github.com/<MEMBER_ID_2>
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
