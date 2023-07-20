@@ -33,28 +33,41 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: repo-owner
+    id: existing-team
     attributes:
-      label: GitHub team that will manage and maintain the repo
-      description: Select whether you have a team in this organization or need one.
+      label: Maintaining team
+      description: Select the team that will maintain this repo.
       options:
-        - I have an existing team
+        - Core
+        - Docs
+        - DevSecOps
+        - ICSE (IBM Cloud Solution Engineering)
+        - Projects
+        - SAP
+        - Satellite
+        - Toolkit
+        - VMWare
+        - Wazi
         - I need a new team
     validations:
       required: true
-  - type: textarea
-    id: team-info
+  - type: input
+    id: new-team-name
     attributes:
-      label: Team details
-      description: Add a link to the team that will administer the repo. If you need a team, specify the GH IDs of the admins and team members.
-      value: |
-        Existing team url: https://github.com/orgs/terraform-ibm-modules/teams/<TEAM-NAME>
-        OR
-        New team name
-        - Admin profile ID: https://github.com/<ADMIN_ID>
-        - Member profile IDs: https://github.com/<MEMBER_ID_1>, https://github.com/<MEMBER_ID_2>
-    validations:
-      required: true
+      label: Request team name
+      description: If you need a team, specify a name and GitHub IDs of the members.
+  - type: textarea
+    id: new-team-admin-users
+    attributes:
+      label: New team admin users
+      description: Enter the GitHub IDs of the admins members of the new team.
+      placeholder: List admin user IDs for a new team
+  - type: textarea
+    id: new-team-merger-users
+    attributes:
+      label: New team merger users
+      description: Enter the GitHub IDs of the members who can merge pull requests to the new repo.
+      placeholder: List merger user IDs for a new team
   - type: textarea
     id: logs
     attributes:
