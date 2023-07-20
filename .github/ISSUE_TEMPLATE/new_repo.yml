@@ -55,12 +55,12 @@ body:
     id: new-team-name
     attributes:
       label: Request team name
-      description: If you need a team, specify a name and GitHub IDs of the members.
+      description: If you need a team, what team name would you like?
   - type: textarea
     id: new-team-admin-users
     attributes:
       label: New team admin users
-      description: Enter the GitHub IDs of the admins members of the new team.
+      description: Enter the GitHub IDs of the admin members of the new team.
       placeholder: List admin user IDs for a new team
   - type: textarea
     id: new-team-merger-users
