@@ -32,6 +32,42 @@ body:
       description: The description help users understand what your module does.
     validations:
       required: true
+  - type: dropdown
+    id: existing-team
+    attributes:
+      label: Maintaining team
+      description: Select the team that will maintain this repo.
+      options:
+        - Core
+        - Docs
+        - DevSecOps
+        - ICSE (IBM Cloud Solution Engineering)
+        - Projects
+        - SAP
+        - Satellite
+        - Toolkit
+        - VMWare
+        - Wazi
+        - I need a new team
+    validations:
+      required: true
+  - type: input
+    id: new-team-name
+    attributes:
+      label: Request team name
+      description: If you need a team, what team name would you like?
+  - type: textarea
+    id: new-team-admin-users
+    attributes:
+      label: New team admin users
+      description: Enter the GitHub IDs of the admin members of the new team.
+      placeholder: List admin user IDs for a new team
+  - type: textarea
+    id: new-team-merger-users
+    attributes:
+      label: New team merger users
+      description: Enter the GitHub IDs of the members who can merge pull requests to the new repo.
+      placeholder: List merger user IDs for a new team
   - type: textarea
     id: logs
     attributes:
