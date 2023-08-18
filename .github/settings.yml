@@ -14,14 +14,11 @@ repository:
 
   # By changing this field, you rename the repository.
 
-  # Uncomment this name property and set the name to the current repo name.
-  # name: ""
+  name: terraform-ibm-issue-tracker
 
   # The description is displayed under the repository name on the
   # organization page and in the 'About' section of the repository.
 
-  # Uncomment this description property
-  # and update the description to the current repo description.
-  # description: ""
+  description: This repo is used to track issues against all IBM terraform modules.
 
-  topics: core-team
+  topics: core-team, issues, issue-tracker
