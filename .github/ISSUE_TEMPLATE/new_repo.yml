@@ -37,10 +37,12 @@ body:
     attributes:
       label: Maintaining team
       description: Select the team that will maintain this repo.
-      options:
+      options:        
+        - CCS (IBM Cloud Complex Solutions)
         - Core
         - Docs
         - DevSecOps
+        - IBM Containerized Software Foundational Services
         - ICSE (IBM Cloud Solution Engineering)
         - Power
         - Projects
