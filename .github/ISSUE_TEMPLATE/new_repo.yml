@@ -32,14 +32,14 @@ body:
       description: The description help users understand what your module does.
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: primary-codeowner
     attributes:
       label: Primary code owner
       description: The github username that will be assigned as primary code owner.
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: secondary-codeowner
     attributes:
       label: Secondary code owner
