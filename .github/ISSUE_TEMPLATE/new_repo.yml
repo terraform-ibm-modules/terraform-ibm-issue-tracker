@@ -32,6 +32,20 @@ body:
       description: The description help users understand what your module does.
     validations:
       required: true
+  - type: textarea
+    id: primary-codeowner
+    attributes:
+      label: Primary code owner
+      description: The github username that will be assigned as primary code owner.
+    validations:
+      required: true
+  - type: textarea
+    id: secondary-codeowner
+    attributes:
+      label: Secondary code owner
+      description: The github username that will be assigned as secondary code owner.
+    validations:
+      required: true
   - type: dropdown
     id: existing-team
     attributes:
